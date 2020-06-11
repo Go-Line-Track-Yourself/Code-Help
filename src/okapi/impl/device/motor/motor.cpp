@@ -1,6 +1,3 @@
-#include "DavisApi/motor.hpp"
-
-namespace spatula{
 /**
  * @author Ryan Benasutti, WPI
  *
@@ -341,4 +338,3 @@ okapi::Motor operator"" _rmtr(const unsigned long long iport) {
 }
 } // namespace literals
 } // namespace okapi
-}
